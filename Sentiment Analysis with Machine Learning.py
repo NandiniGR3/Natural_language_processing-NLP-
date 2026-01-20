@@ -90,3 +90,4 @@ final_ml_result = 0 if any(word in user_review.lower() for word in negation_word
 
 print("VADER Prediction:", "Positive" if vader_result else "Negative")
 print("ML Model Prediction:", "Positive" if final_ml_result else "Negative")
+
